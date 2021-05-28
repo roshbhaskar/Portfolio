@@ -4,6 +4,8 @@ import LandingText from './LandingText';
 import Buttons from './Buttons';
 import { AiFillGithub,AiOutlineLinkedin } from "react-icons/ai";
 import { FiInstagram } from "react-icons/fi";
+import { FaGraduationCap } from "react-icons/fa";
+import { TiLocation } from "react-icons/ti";
 import styled from 'styled-components';
 
 const LandingStyles = styled.div`
@@ -26,7 +28,7 @@ const LandingStyles = styled.div`
     }
     .landing {
         position: absolute;
-        top: 30%;
+        top: 40%;
         left: 60%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -54,7 +56,7 @@ const LandingStyles = styled.div`
           }
     }
     .img_landing {
-        top: 15rem;
+        top: 20rem;
         max-width: 900px;
         //width: 100%;
         //height: 600px;
@@ -66,7 +68,7 @@ const LandingStyles = styled.div`
     .landing_info{
         font-size: 1.8rem;
         position: absolute;
-        top: 55%;
+        top: 65%;
         left: 60%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -75,7 +77,160 @@ const LandingStyles = styled.div`
         text-align: center;
         justify-content: center;
     }
-    //background-color: red;
+
+//     .landing_social,
+//   .location {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 2rem;
+//     position: absolute;
+//     bottom: 20px;
+//     width: 50px;
+//   }
+//   .landing_social {
+//     left: 50px;
+//   }
+//   .location {
+//     right: 50px;
+//   }
+//   .social_icons,
+//   .location {
+//     width: 50px;
+//     p {
+//       font-size: 1.6rem;
+//       transform: translateY(-70px) rotate(90deg);
+//       letter-spacing: 0.7rem;
+//       text-transform: uppercase;
+//     }
+//     svg {
+//       max-height: 45px;
+//       width: 16px;
+//       margin: 0 auto;
+//       object-fit: contain;
+//     }
+//   }
+//   .location {
+//     svg {
+//       max-height: 70px;
+//     }
+//   }
+
+    .landing_social,
+  .social_icons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    bottom: 70px;
+    width: 50px;
+    
+  }
+  
+  .location {
+    right: 50px;
+  }
+
+  .social_icons,
+  {
+    left: 50px;
+    width: 50px;
+    // p {
+    //   font-size: 1.6rem;
+    //   transform: translateY(-70px) rotate(90deg);
+    //   letter-spacing: 0.7rem;
+    //   text-transform: uppercase;
+    // }
+    svg {
+      //padding: 10%;
+      max-height: 55px;
+      width: 36px;
+      margin: 0 auto;
+      object-fit: contain;
+    }
+  }
+    // .location {
+    //     img {
+    //     max-height: 70px;
+    //     }
+  
+
+
+
+    @media only screen and (max-width: 768px) {
+        .land {
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            right: 55px;
+            //align-items: center;
+        }
+        .landing {
+            //left: 1px;
+             font-size: 1.4rem;
+            margin-bottom: -3rem;
+          
+          .name {
+            font-size: 4.5rem;
+          }
+        }
+        .img_landing{
+            //top: 20rem;
+            //max-width: 900px;
+            //width: 100%;
+            //height: 600px;
+            //margin: 0 auto;
+            // position: absolute;
+            // height : 20px;
+            // max-width: 30px;
+            //right: 10%;
+            display: none;
+            // max-height: 35px;
+            // width: 26px;
+            // margin: 0 auto;
+            // object-fit: contain;
+        }
+        .landing_info {
+          //margin-top: 200rem;
+          position: relative;
+          top : 450px;
+          
+        }
+        .landing_social {
+          left: 0px;
+          bottom: -3%;
+          width: 20px;
+          .social_icons {
+            width: 20px;
+            // p {
+            //   font-size: 1.2rem;
+            // }
+            svg {
+              max-height: 22px;
+            }
+          }
+        //   .hero__social__text {
+        //     ul {
+        //       li {
+        //         a {
+        //           font-size: 1.2rem;
+        //           margin-bottom: 1rem;
+        //         }
+        //       }
+        //     }
+        //   }
+        // }
+        // .hero__scrollDown {
+        //   right: 0;
+        //   width: 20px;
+        //   gap: 1rem;
+        //   p {
+        //     font-size: 1.3rem;
+        //   }
+        // }
+      }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+      and (orientation: portrait) { display: none;}
+    
 `;
 
 
@@ -105,7 +260,14 @@ export default function LandingPage() {
                 </div> */}
                 <div className="social_icons">
                     <ul>
-                        {/* <li>
+                        <li>
+                        <a 
+                            href="https://pesitsouth.pes.edu/"
+                            target="_blank"
+                            rel="noreferrer" ><FaGraduationCap/></a>
+                        </li>
+
+                        <li>
                         <a 
                             href="https://www.google.com"
                             target="_blank"
@@ -122,9 +284,12 @@ export default function LandingPage() {
                             href="https://www.google.com"
                             target="_blank"
                             rel="noreferrer" ><FiInstagram/></a>
-                        </li> */}
+                        </li>
+                        
                     </ul>
                 </div>
+
+    
 
             </div>
         </div>

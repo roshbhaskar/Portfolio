@@ -36,7 +36,7 @@ const GlobalStyles = createGlobalStyle`
 
   #tsparticles{
     //background-color:red;
-    height: 450px;
+    height: 600px;
   }
   .container {
     max-width: 1200px;
