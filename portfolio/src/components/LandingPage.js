@@ -161,11 +161,12 @@ const LandingStyles = styled.div`
             text-align: center;
             justify-content: center;
             display: flex;
-            right: 55px;
+            right: 40px;
             //align-items: center;
         }
         .landing {
             //left: 1px;
+            top: 200px;
              font-size: 1.4rem;
             margin-bottom: -3rem;
           
@@ -177,13 +178,15 @@ const LandingStyles = styled.div`
             //top: 20rem;
             //max-width: 900px;
             //width: 100%;
-            //height: 600px;
+            //height: 300px;
             //margin: 0 auto;
-            // position: absolute;
+            position: relative;
+            top: 300px;
+            right: 20px;
             // height : 20px;
             // max-width: 30px;
             //right: 10%;
-            display: none;
+            //display: none;
             // max-height: 35px;
             // width: 26px;
             // margin: 0 auto;
@@ -192,12 +195,14 @@ const LandingStyles = styled.div`
         .landing_info {
           //margin-top: 200rem;
           position: relative;
-          top : 450px;
+          top : 400px;
           
         }
         .landing_social {
           left: 0px;
-          bottom: -3%;
+          position: relative;
+          top: 100px;
+          //bottom: -3%;
           width: 20px;
           .social_icons {
             width: 20px;
