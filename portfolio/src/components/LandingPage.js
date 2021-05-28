@@ -28,7 +28,7 @@ const LandingStyles = styled.div`
     }
     .landing {
         position: absolute;
-        top: 40%;
+        top: 300px;
         left: 60%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -62,13 +62,13 @@ const LandingStyles = styled.div`
         //height: 600px;
         margin: 0 auto;
         position: relative;
-        left: 5%;
+        left: 2%;
       }
 
     .landing_info{
         font-size: 1.8rem;
         position: absolute;
-        top: 65%;
+        top: 500px;
         left: 60%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -121,7 +121,7 @@ const LandingStyles = styled.div`
     flex-direction: column;
     gap: 2rem;
     position: absolute;
-    bottom: 70px;
+    //bottom: 70px;
     width: 50px;
     
   }
@@ -161,7 +161,7 @@ const LandingStyles = styled.div`
             text-align: center;
             justify-content: center;
             display: flex;
-            right: 40px;
+            right: 30px;
             //align-items: center;
         }
         .landing {
@@ -169,8 +169,9 @@ const LandingStyles = styled.div`
             top: 200px;
              font-size: 1.4rem;
             margin-bottom: -3rem;
-          
+            left: 60%;
           .name {
+
             font-size: 4.5rem;
           }
         }
@@ -182,13 +183,13 @@ const LandingStyles = styled.div`
             //margin: 0 auto;
             position: relative;
             top: 300px;
-            right: 20px;
+            right: 10px;
             // height : 20px;
             // max-width: 30px;
             //right: 10%;
             //display: none;
             // max-height: 35px;
-            // width: 26px;
+             width: 204px;
             // margin: 0 auto;
             // object-fit: contain;
         }
@@ -196,21 +197,22 @@ const LandingStyles = styled.div`
           //margin-top: 200rem;
           position: relative;
           top : 400px;
+          left: 60%;
           
         }
         .landing_social {
           left: 0px;
           position: relative;
-          top: 100px;
+          top: 1px;
           //bottom: -3%;
-          width: 20px;
+          width: 30px;
           .social_icons {
             width: 20px;
             // p {
             //   font-size: 1.2rem;
             // }
             svg {
-              max-height: 22px;
+              max-height: 28px;
             }
           }
         //   .hero__social__text {
