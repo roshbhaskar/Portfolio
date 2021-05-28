@@ -36,13 +36,13 @@ const GlobalStyles = createGlobalStyle`
 
   #tsparticles{
     //background-color:red;
-    height: 600px;
+    height: 700px;
   }
   .container {
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
-    height: 2000px;
+    height:  600px;
   }
 /* Smooth Scroll  */
   [data-scrollbar] {

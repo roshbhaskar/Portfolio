@@ -8,7 +8,7 @@ const PStyle = styled.div`
 // line-height: 1.3em;
 // position: absolute;
 // left: 48%;
-
+font-weight: bold;
         
 @media only screen and (max-width: 768px){
     font-size: 1.4rem;
@@ -18,7 +18,7 @@ const PStyle = styled.div`
 export default function LandingText() {
     return (
         <PStyle>
-           <p>I am a junior at PES University<br/>Im bout to jkbdskjbsdkjbskjdbvjkb<br/>kbsakfbakfb</p> 
+           <p>Welcome to the place where<br/>I glady promote myself<br/></p> 
         </PStyle>
     )
 }

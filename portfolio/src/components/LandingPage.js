@@ -205,14 +205,14 @@ const LandingStyles = styled.div`
           position: relative;
           top: 1px;
           //bottom: -3%;
-          width: 30px;
+          width: 50px;
           .social_icons {
             width: 20px;
             // p {
             //   font-size: 1.2rem;
             // }
             svg {
-              max-height: 28px;
+              max-height: 48px;
             }
           }
         //   .hero__social__text {
@@ -260,6 +260,7 @@ export default function LandingPage() {
                 <LandingText/>
                 <Buttons btnLink="/projects"
                 outline={false} />
+                <p><br/></p>
             </div>
             <div className="landing_social">
                 {/* <div className="landing_social_indicator">
@@ -276,19 +277,19 @@ export default function LandingPage() {
 
                         <li>
                         <a 
-                            href="https://www.google.com"
+                            href="https://github.com/roshbhaskar"
                             target="_blank"
                             rel="noreferrer" ><AiFillGithub/></a>
                         </li>
                         <li>
                         <a 
-                            href="https://www.google.com"
+                            href="https://www.linkedin.com/in/roshini-b-50493a1a4/"
                             target="_blank"
                             rel="noreferrer" ><AiOutlineLinkedin/></a>
                         </li>
                         <li>
                         <a 
-                            href="https://www.google.com"
+                            href="https://www.instagram.com/roshinibhaskar"
                             target="_blank"
                             rel="noreferrer" ><FiInstagram/></a>
                         </li>
