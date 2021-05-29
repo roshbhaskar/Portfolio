@@ -166,7 +166,7 @@ const LandingStyles = styled.div`
         }
         .landing {
             //left: 1px;
-            top: 200px;
+            top: 190px;
              font-size: 1.4rem;
             margin-bottom: -3rem;
             left: 60%;
@@ -182,7 +182,7 @@ const LandingStyles = styled.div`
             //height: 300px;
             //margin: 0 auto;
             position: relative;
-            top: 300px;
+            top: 280px;
             right: 10px;
             // height : 20px;
             // max-width: 30px;
@@ -196,23 +196,24 @@ const LandingStyles = styled.div`
         .landing_info {
           //margin-top: 200rem;
           position: relative;
-          top : 400px;
+          top : 370px;
           left: 60%;
           
         }
         .landing_social {
           left: 0px;
           position: relative;
-          top: 1px;
-          //bottom: -3%;
-          width: 50px;
+          
+          //top: 1px;
+          bottom: +7%;
+          //width: 50px;
           .social_icons {
-            width: 20px;
+            //width: 20px;
             // p {
             //   font-size: 1.2rem;
             // }
             svg {
-              max-height: 48px;
+              max-height: 50px;
             }
           }
         //   .hero__social__text {
