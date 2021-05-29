@@ -6,12 +6,15 @@ import ParticleBackground from '../styles/ParticleBackground'
 export default function Home() {
     return (
         <div>
+            <ParticleBackground/>
+        <div className="container">
             {/* <h1>This is home page!</h1> */}
            
            
-            <ParticleBackground/>
+           
             <LandingPage/>
             <Footer/>
+        </div>
         </div>
     )
 }
