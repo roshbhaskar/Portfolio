@@ -6,15 +6,16 @@ const PStyle = styled.div`
 // max-width: 500px;
 // margin: 0 auto;
 font-size: 1.4rem;
+//color: var(--gray-2);
 // line-height: 1.3em;
 // position: absolute;
 // left: 48%;
 //font-weight: bold;
         
-@media only screen and (max-width: 768px){
-    font-size: 1rem;
+// @media only screen and (max-width: 768px){
+//     font-size: 1rem;
     
-}
+// }
 `;
 
 const CopyRight = styled.div`
