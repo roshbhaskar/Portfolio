@@ -161,7 +161,7 @@ const LandingStyles = styled.div`
             text-align: center;
             justify-content: center;
             display: flex;
-            right: 30px;
+            //left: 80px;
             //align-items: center;
         }
         .landing {
@@ -236,8 +236,8 @@ const LandingStyles = styled.div`
         //   }
         // }
       }
-      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
-      and (orientation: portrait) { display: none;}
+      // @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+      // and (orientation: portrait) { display: none;}
     
 `;
 

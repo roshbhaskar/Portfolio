@@ -60,10 +60,17 @@ const GlobalStyles = createGlobalStyle`
     }
   }
 
-  // @media only screen and (max-width: 768px) {
-  // html{
-  //   width: 359px;
-  // }
+  @media only screen and (max-width: 768px) {
+  html{
+
+    width:128%;
+  }
+
+  @media only screen and (max-width: 259px) {
+    html{
+  
+      display:none;
+    }
 }
 `;
 export default GlobalStyles;
