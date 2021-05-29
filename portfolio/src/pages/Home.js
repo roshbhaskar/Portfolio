@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import LandingPage from '../components/LandingPage'
 import ParticleBackground from '../styles/ParticleBackground'
 
@@ -10,6 +11,7 @@ export default function Home() {
            
             <ParticleBackground/>
             <LandingPage/>
+            <Footer/>
         </div>
     )
 }

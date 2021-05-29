@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
-    height:  600px;
+    //height:  600px;
   }
 /* Smooth Scroll  */
   [data-scrollbar] {
@@ -59,5 +59,11 @@ const GlobalStyles = createGlobalStyle`
       }
     }
   }
+
+  // @media only screen and (max-width: 768px) {
+  // html{
+  //   width: 359px;
+  // }
+}
 `;
 export default GlobalStyles;
