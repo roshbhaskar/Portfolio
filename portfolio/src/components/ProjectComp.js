@@ -10,7 +10,7 @@ SwiperCore.use([Navigation]);
 
 const ProjectCompStyle = styled.div`
 
-padding: 10rem 0;
+padding: 4rem 0;
 
 .heading_1{
     color: white;
@@ -51,7 +51,7 @@ padding: 10rem 0;
       flex-direction: column;
       max-width: 400px;
       margin: 0 auto;
-      margin-top: 7rem;
+      margin-top: 2rem;
       gap: 5rem;
       .projectItem_img {
         width: 100%;
