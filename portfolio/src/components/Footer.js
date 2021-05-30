@@ -28,13 +28,13 @@ font-size: 1.4rem;
 //font-weight: bold;
 color:white; 
 @media only screen and (max-width: 768px){
-    font-size: 1rem;
+    font-size: 1.3rem;
     
 }
 `;
 
 const FooterStyles = styled.div`
-padding-top: 5rem;
+padding-top: 3rem;
 background-color: var(--deep-dark);
 //margin-bottom: 3px;
 .container{

@@ -11,7 +11,7 @@ const projects = [
     name: 'U Tracker',
     desc:
       'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+    img: ProjectImg,
   },
   {
     id: uuidv4(),
@@ -39,7 +39,7 @@ const projects = [
     name: 'Tracking Soft',
     desc:
       'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+    img: UTrackerImg,
   },
 ];
 
