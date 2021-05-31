@@ -24,13 +24,13 @@ const ButtonStyle = styled.div`
 `;
 
 //you can provide default values for props after destructing them
-export default function Buttons({btnLink = "Test",outline=false}) {
+export default function Buttons({btnText="none",btnLink = "Test",outline=false}) {
     return (
         <ButtonStyle outline={outline}>
             <Link className="button" 
             to={btnLink}
             
-            >My Projects</Link>
+            >{btnText}</Link>
         </ButtonStyle>
     )
 }

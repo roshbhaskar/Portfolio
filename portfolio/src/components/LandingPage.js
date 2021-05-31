@@ -260,7 +260,8 @@ export default function LandingPage() {
             <div className="landing_info">
                 <LandingText/>
                 <Buttons btnLink="/projects"
-                outline={false} />
+                outline={false}
+                btnText="My Projects" />
                 <p><br/></p>
             </div>
             <div className="landing_social">
