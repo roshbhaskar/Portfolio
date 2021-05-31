@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import Button from './Buttons';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/faceu.jpeg';
 import AboutInfoItem from '../components/AboutInfoItem';
 
 const PText = styled.div`
@@ -100,7 +100,7 @@ export default function Resume() {
               <div className="about__info">
                 <PText>
                   I love art and desgin. Building things from scratch always seems exciting and their progress keeps me motivated.<br/> 
-                  My main domains of interest include Web Development and Data Science.<br/> Maybe I'll add more to that list since I am always exploring :D
+                  My main domains of interest include Web Development and Data Science.<br/> 
                 </PText>
               </div>
               <Button btnText="Resume" btnLink="#" />

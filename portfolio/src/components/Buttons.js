@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const ButtonStyle = styled.div`
     margin-top: 2rem;
     .button{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         background-color: ${(props=>
             props.outline ? 'transparent' : 'var(--gray-1)'
         )};
@@ -18,7 +18,7 @@ const ButtonStyle = styled.div`
 
     @media only screen and (max-width: 768px){
         .button{
-            font-size: 1.8rem;
+            font-size: 1.4rem;
         }
     }
 `;

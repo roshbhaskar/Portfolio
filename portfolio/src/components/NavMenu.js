@@ -63,7 +63,7 @@ const NavMenuStyles = styled.div`
         display:block;
     }
     .navItems{
-        --top: 1rem;
+        --top: 2rem;
         transition: .3s ease transform;
         background-color: var(--deep-dark);
         padding: 2rem;
@@ -73,7 +73,7 @@ const NavMenuStyles = styled.div`
         position: absolute;
         right: 1rem;
         top: var(--top);
-
+        border: 2px solid gray;
         .close-Nav-icon{
             display:block;
             width: 3rem;

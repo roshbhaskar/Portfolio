@@ -210,7 +210,7 @@ const LandingStyles = styled.div`
           //margin-top: 200rem;
           position: relative;
           top : 370px;
-          left: 60%;
+          left: 65%;
           
         }
         .landing_social {
