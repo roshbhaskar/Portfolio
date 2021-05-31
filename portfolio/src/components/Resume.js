@@ -99,7 +99,8 @@ export default function Resume() {
               <h2 className="about__heading">Hope you had fun snooping around!</h2>
               <div className="about__info">
                 <PText>
-                  I love art and desgin. Building things from scratch always seems exciting and the progress of it keeps me motivated.<br/>  
+                  I love art and desgin. Building things from scratch always seems exciting and the progress of it keeps me motivated.<br/> 
+                  My main domains of interest are Web Development and Data Science. 
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />

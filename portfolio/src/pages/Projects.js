@@ -8,6 +8,7 @@ const ProjectStyle = styled.div`
         position: relative;
         top: 100px;
         color: white;
+        font-size: 2.6rem;
     }
     @media only screen and (max-width: 768px){
         .heading_1{

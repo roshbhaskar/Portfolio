@@ -8,6 +8,18 @@ import { FaGraduationCap } from "react-icons/fa";
 import { TiLocation } from "react-icons/ti";
 import styled from 'styled-components';
 
+
+const PText = styled.div`
+max-width: 500px;
+margin: 0 auto;
+font-size: 1.3rem;
+line-height: 1.3em;
+color: gray;
+@media only screen and (max-width: 768px) {
+  font-size: 1rem;
+}
+`;
+
 const LandingStyles = styled.div`
     .land{
         // height: 100vh;
@@ -174,6 +186,7 @@ const LandingStyles = styled.div`
 
             font-size: 4.5rem;
           }
+          
         }
         .img_landing{
             //top: 20rem;
@@ -253,6 +266,7 @@ export default function LandingPage() {
             <h1 className="landing">
                 <span>Hey there! I am </span>
                 <span className="name">Roshini Bhaskar</span>
+                {/* <PText>Web Dev|Data Science</PText> */}
             </h1>
             <div className="img_landing">
                 <img src={Sticker} alt=""></img>
