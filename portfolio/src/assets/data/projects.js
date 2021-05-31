@@ -10,44 +10,45 @@ const projects = [
     id: uuidv4(),
     name: 'Algorithm Path Visualizer',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
+      'A web app built using React to visualize all the path finding algorithms.',
     img: ProjectImg,
   },
   {
     id: uuidv4(),
-    name: 'ChatBot',
+    name: 'Linux Shell',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'Implementing a mini Linux Shell using C.',
+    img: UTrackerImg,
   },
   {
     id: uuidv4(),
     name: 'Generic RBTs',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
+      'Red Black Trees implementation in C++ using generic programming concepts.',
     img: CoinTrackerImg,
   },
   {
     id: uuidv4(),
-    name: "Notes Tracker",
+    name: 'ChatBot',
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+      'A rule based chatbot developed in PySpark using Reddit dataset.',
+    img: GreenCtgImg,
   },
   {
     id: uuidv4(),
     name: 'Logging System',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+      'Mimicing the logging system dependies in C++ using variations of different Design Patterns.',
     img: UTrackerImg,
   },
+ 
   {
     id: uuidv4(),
-    name: 'Colour Palette',
+    name: "Notes Tracker",
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: UTrackerImg,
-  }
+      'A web app built using React and Firebase to track and store your notes.',
+    img: CavinImg,
+  },
 ];
 
 export default projects;

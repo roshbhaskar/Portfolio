@@ -99,8 +99,8 @@ export default function Resume() {
               <h2 className="about__heading">Hope you had fun looking around!</h2>
               <div className="about__info">
                 <PText>
-                  I love art and desgin. Building things from scratch always seems exciting and the progress of it keeps me motivated.<br/> 
-                  My main domains of interest are Web Development and Data Science. 
+                  I love art and desgin. Building things from scratch always seems exciting and their progress keeps me motivated.<br/> 
+                  My main domains of interest include Web Development and Data Science.<br/> Maybe I'll add more to that list since I am always exploring :D
                 </PText>
               </div>
               <Button btnText="Resume" btnLink="#" />
@@ -143,7 +143,7 @@ export default function Resume() {
               />
               <AboutInfoItem
                 title="Backend"
-                items={['Mysql', 'Flask']}
+                items={['Mysql', 'Flask','Firebase']}
               />
              
             </div>

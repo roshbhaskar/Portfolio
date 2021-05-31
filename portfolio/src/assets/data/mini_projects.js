@@ -10,35 +10,35 @@ const mini_projects = [
     id: uuidv4(),
     name: 'PlayStore Rating Prediction',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
+      'Prediction the ratings of apps on Playstore using Jupyter.',
     img: ProjectImg,
   },
   {
     id: uuidv4(),
     name: 'MineSweeper',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
+      'Game built using Java.',
     img: GreenCtgImg,
   },
   {
     id: uuidv4(),
     name: 'Todo List',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
+      'A web app built using react that simply tracks your todo list.',
     img: CoinTrackerImg,
   },
   {
     id: uuidv4(),
     name: "Snake Game",
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
+      'Game built using Python.',
     img: CavinImg,
   },
   {
     id: uuidv4(),
     name: 'Insurance Management System',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+      'Stimulating a insurance management system using MySql.',
     img: UTrackerImg,
   }
 ];
