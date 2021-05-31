@@ -9,6 +9,7 @@ max-width: 500px;
 margin: 0 auto;
 font-size: 1.8rem;
 line-height: 1.3em;
+color: white;
 @media only screen and (max-width: 768px) {
   font-size: 1.4rem;
 }
@@ -40,10 +41,12 @@ const ResumeStyle = styled.div`
         }
       }
       .about__heading {
-        font-size: 3.6rem;
+        font-size: 2.6rem;
         margin-bottom: 3rem;
+        //color: white;
       }
       .about__info {
+        //color: white;
         margin-bottom: 4rem;
         .para {
           max-width: 100%;
@@ -52,20 +55,21 @@ const ResumeStyle = styled.div`
       .right {
         img {
           border: 2px solid var(--gray-1);
+          height: 300px;
         }
       }
       .about__info__items {
-        margin-top: 15rem;
+        margin-top: 7rem;
       }
       .about__info__item {
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
       }
       .about__info__heading {
-        font-size: 3.6rem;
-        text-transform: uppercase;
+        font-size: 2.6rem;
+       color: white;
       }
       @media only screen and (max-width: 768px) {
-        padding: 10rem 0;
+        padding: 4rem 0;
         .top-section {
           flex-direction: column;
           gap: 5rem;
@@ -74,10 +78,11 @@ const ResumeStyle = styled.div`
           font-size: 1.8rem;
         }
         .about__heading {
-          font-size: 2.8rem;
+          font-size: 1.8rem;
         }
         .about__info__heading {
-          font-size: 3rem;
+          font-size: 1.8rem;
+          left:10rem;
         }
       }
 `;
@@ -88,27 +93,13 @@ export default function Resume() {
             <div className="resume">
             <div className="top-section">
             <div className="left">
-              <p className="about__subheading">
+              {/* <p className="about__subheading">
                 Hi, I am <span>Ayan Khan</span>
-              </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              </p> */}
+              <h2 className="about__heading">Hope you had fun snooping around!</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
-                  <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
-                  <br />
-                  <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  I love art and desgin. Building things from scratch always seems exciting and the progress of it keeps me motivated.<br/>  
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />
@@ -118,7 +109,7 @@ export default function Resume() {
             </div>
           </div>
           <div className="about__info__items">
-            <div className="about__info__item">
+            {/* <div className="about__info__item">
               <h1 className="about__info__heading">Education</h1>
 
               <AboutInfoItem
@@ -133,24 +124,29 @@ export default function Resume() {
                 title="Varsity"
                 items={['University Of Chitiagong']}
               />
-            </div>
+            </div> */}
             <div className="about__info__item">
-              <h1 className="about__info__heading">My Skills</h1>
+              <h2 className="about__info__heading">My Skills</h2>
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['HTML', 'CSS', 'JavaScript', 'React']}
+              />
+               <AboutInfoItem
+                title="AI"
+                items={['Machine Learning','Keras','Spark','Hadoop']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                title="Proficient in"
+                items={['C', 'Python', 'C++']}
               />
               <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                title="Backend"
+                items={['Mysql', 'Flask']}
               />
+             
             </div>
-            <div className="about__info__item">
+            {/* <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
@@ -165,7 +161,7 @@ export default function Resume() {
                 title="2016-"
                 items={['Freelance web Developer']}
               />
-            </div>
+            </div> */}
           </div>
             </div>
             {/* <p>Hi</p> */}

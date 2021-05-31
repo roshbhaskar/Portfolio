@@ -24,8 +24,8 @@ export default function Contact() {
             {/* <br></br>
             <br/>
             <br/> */}
-            <h1 className="heading_1"                           
-            >HElloo</h1>
+            {/* <h1 className="heading_1"                           
+            >HElloo</h1> */}
             <Resume/>
             <Footer/>
         </div>
