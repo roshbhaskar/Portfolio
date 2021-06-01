@@ -1,8 +1,28 @@
 import React from 'react'
 import styled from 'styled-components';
 import Button from './Buttons';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/faceu.jpeg';
 import AboutInfoItem from '../components/AboutInfoItem';
+import resume from '../assets/resume/RBK_resume.pdf';
+
+
+const ButtonStyle = styled.div`
+        font-size: 1.8rem;
+        background-color: var(--gray-1);
+        padding: 0.7em 2em;
+        border-radius: 8px;
+        display: inline-block;
+        border: 2px solid var(--gray-1);
+        color: white;
+ 
+
+    @media only screen and (max-width: 768px){
+      
+        font-size: 1.4rem;
+
+    }
+`;
+
 
 const PText = styled.div`
 max-width: 500px;
@@ -42,7 +62,8 @@ const ResumeStyle = styled.div`
       }
       .about__heading {
         font-size: 2.6rem;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
         //color: white;
       }
       .about__info {
@@ -55,7 +76,7 @@ const ResumeStyle = styled.div`
       .right {
         img {
           border: 2px solid var(--gray-1);
-          height: 300px;
+          height: 280px;
         }
       }
       .about__info__items {
@@ -69,7 +90,7 @@ const ResumeStyle = styled.div`
        color: white;
       }
       @media only screen and (max-width: 768px) {
-        padding: 4rem 0;
+        padding: 1rem 0;
         .top-section {
           flex-direction: column;
           gap: 5rem;
@@ -93,39 +114,23 @@ export default function Resume() {
             <div className="resume">
             <div className="top-section">
             <div className="left">
-              {/* <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
-              </p> */}
-              <h2 className="about__heading">Hope you had fun snooping around!</h2>
+             
+              <h2 className="about__heading">Hope you had fun looking around!</h2>
               <div className="about__info">
                 <PText>
-                  I love art and desgin. Building things from scratch always seems exciting and the progress of it keeps me motivated.<br/> 
-                  My main domains of interest are Web Development and Data Science. 
+                  I love art and desgin. Building things from scratch always seems exciting and their progress keeps me motivated.<br/> 
+                  My main domains of interest include Web Development and Data Science.<br/> 
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <a href={resume} download><ButtonStyle>Resume</ButtonStyle></a>
+              <br/><br/><br/><br/>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
             </div>
           </div>
           <div className="about__info__items">
-            {/* <div className="about__info__item">
-              <h1 className="about__info__heading">Education</h1>
-
-              <AboutInfoItem
-                title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
-              />
-              <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
-              />
-              <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
-              />
-            </div> */}
+           
             <div className="about__info__item">
               <h2 className="about__info__heading">My Skills</h2>
 
@@ -143,29 +148,15 @@ export default function Resume() {
               />
               <AboutInfoItem
                 title="Backend"
-                items={['Mysql', 'Flask']}
+                items={['Mysql', 'Flask','Firebase']}
               />
              
             </div>
-            {/* <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
-
-              <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
-              />
-              <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
-              />
-            </div> */}
+            
+  
           </div>
             </div>
-            {/* <p>Hi</p> */}
+            
         </ResumeStyle>
     )
 }

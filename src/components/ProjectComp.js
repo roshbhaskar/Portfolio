@@ -5,6 +5,7 @@ import SwiperCore, { Navigation } from 'swiper';
 import projects from '../assets/data/projects';
 import ProjectItem from './ProjectItem';
 import 'swiper/swiper-bundle.min.css';
+import mini_projects from '../assets/data/mini_projects';
 
 SwiperCore.use([Navigation]);
 
@@ -16,13 +17,19 @@ padding: 4rem 0;
     color: white;
     //top: 300rem;  
 }
-.projects_completed {
+.mini_projects{
+  position: relative;
+        top: 100px;
+        color: white;
+        font-size: 2.6rem;
+}
+.projects_completed,.projects_completed_mini {
   display: flex;
   gap: 3rem;
   margin-top: 5rem;
 }
 .swiper-container {
-  padding-top: 8rem;
+  padding-top: 11rem;
   max-width: 100%;
 }
 .swiper-button-prev,
@@ -47,7 +54,7 @@ padding: 4rem 0;
     font-size: 2rem;
   }
   @media only screen and (max-width: 768px) {
-    .projects_completed {
+    .projects_completed,.projects_completed_mini {
       flex-direction: column;
       max-width: 400px;
       margin: 0 auto;
@@ -57,6 +64,11 @@ padding: 4rem 0;
         width: 100%;
       }
     }
+    .mini_projects{
+      // postion: absolute;
+      top: 60px;
+      font-size: 2rem;
+  }
   }
 `;
 
@@ -64,7 +76,7 @@ export default function ProjectComp() {
     return (
         <ProjectCompStyle>
            <br/>
-            {/* <h1 className="heading_1">My main projects</h1> */}
+           
             <div className="projects_completed">
                 <Swiper
                     spaceBetween={30}
@@ -86,6 +98,42 @@ export default function ProjectComp() {
                     }}
                 >
                 {projects.map((project,index)=>{
+                    if(index>=6) return<div></div>;
+                    return (
+                       <SwiperSlide key={project.id}>
+                  <ProjectItem
+                    title={project.name}
+                    img={project.img}
+                    desc={project.desc}
+                    link={project.link}
+                  />
+                </SwiperSlide>
+                    )
+                })}
+                </Swiper>
+            </div>
+            <h1 className="mini_projects">Mini Projects</h1>
+            <div className="projects_completed_mini">
+                <Swiper
+                    spaceBetween={30}
+                    slidesPerView={1}
+                    navigation
+                    breakpoints={{
+                      
+                      640: {
+                        slidesPerView: 1,
+                      },
+                   
+                      768: {
+                        slidesPerView: 2,
+                      },
+                     
+                      1200: {
+                        slidesPerView: 3,
+                      },
+                    }}
+                >
+                {mini_projects.map((project,index)=>{
                     if(index>=5) return<div></div>;
                     return (
                        <SwiperSlide key={project.id}>
@@ -93,6 +141,7 @@ export default function ProjectComp() {
                     title={project.name}
                     img={project.img}
                     desc={project.desc}
+                    link={project.link}
                   />
                 </SwiperSlide>
                     )

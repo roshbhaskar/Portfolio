@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import ProjectImg from '../assets/images/projectImg.png';
+import ProjectImg from '../assets/images/cavinimg.jpg';
 import styled from 'styled-components';
 
 const ProjectItemStyles = styled.div`
@@ -41,16 +41,22 @@ export default function ProjectItem({
     img = ProjectImg,
     title = 'Project Name',
     desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    link= "https://github.com/roshbhaskar/generic-red-black-trees"
   }) {
     return (
       <ProjectItemStyles>
-        <Link to="/projects" className="projectItem_img">
+        <a href={link} 
+        target="_blank"
+        rel="noreferrer"
+        className="projectItem_img">
           <img src={img} alt="project img" />
-        </Link>
+        </a>
         <div className="projectItem_info">
-          <Link to="#">
+          <a href={link}
+          target="_blank"
+          rel="noreferrer">
             <h3 className="projectItem_title">{title}</h3>
-          </Link>
+          </a>
           <p className="projectItem_desc">{desc}</p>
         </div>
       </ProjectItemStyles>

@@ -63,7 +63,7 @@ const NavMenuStyles = styled.div`
         display:block;
     }
     .navItems{
-        --top: 1rem;
+        --top: 2rem;
         transition: .3s ease transform;
         background-color: var(--deep-dark);
         padding: 2rem;
@@ -73,7 +73,7 @@ const NavMenuStyles = styled.div`
         position: absolute;
         right: 1rem;
         top: var(--top);
-
+        border: 2px solid gray;
         .close-Nav-icon{
             display:block;
             width: 3rem;
@@ -115,21 +115,14 @@ export default function NavMenu(){
                   <VscChevronUp/>
                 </div>
                 <li>
-                    <NavLink to="/" exact
+                    <NavLink to="/Portfolio" exact
                         onClick={()=>setShowNav(!showNav)}
                         role="button"
                         onKeyDown={()=>setShowNav(!showNav)}
                         tabIndex={0}
                     >Home</NavLink>
                 </li>
-                {/* <li>
-                <NavLink to="/about"
-                    onClick={()=>setShowNav(!showNav)}
-                    role="button"
-                    onKeyDown={()=>setShowNav(!showNav)}
-                    tabIndex={0}
-                >About</NavLink>
-                </li> */}
+               
                 <li>
                 <NavLink to="/projects"
                     onClick={()=>setShowNav(!showNav)}
