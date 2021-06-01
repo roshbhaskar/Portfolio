@@ -3,6 +3,27 @@ import styled from 'styled-components';
 import Button from './Buttons';
 import AboutImg from '../assets/images/faceu.jpeg';
 import AboutInfoItem from '../components/AboutInfoItem';
+import resume from '../assets/resume/RBK_resume.pdf';
+
+
+const ButtonStyle = styled.div`
+    margin-top: 2rem;
+        font-size: 1.8rem;
+        background-color: var(--gray-1);
+        padding: 0.7em 2em;
+        border-radius: 8px;
+        display: inline-block;
+        border: 2px solid var(--gray-1);
+        color: white;
+ 
+
+    @media only screen and (max-width: 768px){
+      
+        font-size: 1.4rem;
+
+    }
+`;
+
 
 const PText = styled.div`
 max-width: 500px;
@@ -103,7 +124,7 @@ export default function Resume() {
                   My main domains of interest include Web Development and Data Science.<br/> 
                 </PText>
               </div>
-              <Button btnText="Resume" btnLink="#" />
+              <a href={resume} download><ButtonStyle>Resume</ButtonStyle></a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
