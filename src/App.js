@@ -14,7 +14,7 @@ function App() {
       <NavMenu/>
 
       <Switch>
-        <Route path="/" exact={true} >
+        <Route path="/Portfolio" exact={true} >
         {/* <ParticleBackground/> */}
         <Home/>
         </Route>

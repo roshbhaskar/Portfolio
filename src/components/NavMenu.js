@@ -115,7 +115,7 @@ export default function NavMenu(){
                   <VscChevronUp/>
                 </div>
                 <li>
-                    <NavLink to="/" exact
+                    <NavLink to="/Portfolio" exact
                         onClick={()=>setShowNav(!showNav)}
                         role="button"
                         onKeyDown={()=>setShowNav(!showNav)}

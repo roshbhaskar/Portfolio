@@ -135,7 +135,7 @@ export default function Footer() {
                         links={
                             [{
                             title:"Home",
-                            path: '/',
+                            path: '/Portfolio',
                             type: 'Link',
                         },
                         {

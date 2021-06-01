@@ -29,7 +29,7 @@ padding: 4rem 0;
   margin-top: 5rem;
 }
 .swiper-container {
-  padding-top: 8rem;
+  padding-top: 11rem;
   max-width: 100%;
 }
 .swiper-button-prev,
