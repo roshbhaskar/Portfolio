@@ -7,7 +7,6 @@ import resume from '../assets/resume/RBK_resume.pdf';
 
 
 const ButtonStyle = styled.div`
-    margin-top: 2rem;
         font-size: 1.8rem;
         background-color: var(--gray-1);
         padding: 0.7em 2em;
