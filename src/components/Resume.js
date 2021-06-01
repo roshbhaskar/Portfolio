@@ -123,6 +123,7 @@ export default function Resume() {
                 </PText>
               </div>
               <a href={resume} download><ButtonStyle>Resume</ButtonStyle></a>
+              <br/><br/>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
