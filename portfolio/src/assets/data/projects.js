@@ -11,14 +11,14 @@ const projects = [
     img: CavinImg,
     link: "https://github.com/roshbhaskar/PathVisualizer",
   },
-  {
-    id: uuidv4(),
-    name: 'Linux Shell',
-    desc:
-      'Implementing a mini Linux Shell using C.',
-    img: CavinImg,
-    link: "https://github.com/roshbhaskar/LinuxShell-",
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: 'Linux Shell',
+  //   desc:
+  //     'Implementing a mini Linux Shell using C.',
+  //   img: CavinImg,
+  //   link: "https://github.com/roshbhaskar/LinuxShell-",
+  // },
   {
     id: uuidv4(),
     name: 'Generic RBTs',

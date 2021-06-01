@@ -11,14 +11,14 @@ const mini_projects = [
     img: CavinImg,
     link: "https://github.com/roshbhaskar/Play-Stores-App-Rating",
   },
-  {
-    id: uuidv4(),
-    name: 'MineSweeper',
-    desc:
-      'Game built using Java.',
-    img: CavinImg,
-    link : "https://github.com/roshbhaskar/Minesweeper",
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: 'MineSweeper',
+  //   desc:
+  //     'Game built using Java.',
+  //   img: CavinImg,
+  //   link : "https://github.com/roshbhaskar/Minesweeper",
+  // },
   {
     id: uuidv4(),
     name: 'Todo List',
