@@ -1,8 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
+
 import CavinImg from '../images/cavinimg.jpg';
 
 const mini_projects = [
@@ -11,7 +8,7 @@ const mini_projects = [
     name: 'PlayStore Rating Prediction',
     desc:
       'Prediction the ratings of apps on Playstore using Jupyter.',
-    img: ProjectImg,
+    img: CavinImg,
     link: "https://github.com/roshbhaskar/Play-Stores-App-Rating",
   },
   {
@@ -19,7 +16,7 @@ const mini_projects = [
     name: 'MineSweeper',
     desc:
       'Game built using Java.',
-    img: GreenCtgImg,
+    img: CavinImg,
     link : "https://github.com/roshbhaskar/Minesweeper",
   },
   {
@@ -27,7 +24,7 @@ const mini_projects = [
     name: 'Todo List',
     desc:
       'A web app built using react that simply tracks your todo list.',
-    img: CoinTrackerImg,
+    img: CavinImg,
     link : "https://github.com/roshbhaskar/TodoList",
   },
   {
@@ -43,7 +40,7 @@ const mini_projects = [
     name: 'Insurance Management System',
     desc:
       'Stimulating a insurance management system using MySql.',
-    img: UTrackerImg,
+    img: CavinImg,
     link : "https://github.com/roshbhaskar/Insurance-Management-System",
   }
 ];

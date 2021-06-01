@@ -12,7 +12,7 @@ const ProjectStyle = styled.div`
     }
     @media only screen and (max-width: 768px){
         .heading_1{
-            // postion: absolute;
+          
             top: 110px;
             font-size: 2rem;
         }
@@ -22,9 +22,7 @@ export default function Projects() {
     return (
         <ProjectStyle>
         <div className="container">
-            {/* <br></br>
-            <br/>
-            <br/> */}
+            
             <h1 className="heading_1"                           
             >Projects I have worked on</h1>
             <ProjectComp/>

@@ -76,7 +76,7 @@ export default function ProjectComp() {
     return (
         <ProjectCompStyle>
            <br/>
-            {/* <h1 className="heading_1">My main projects</h1> */}
+           
             <div className="projects_completed">
                 <Swiper
                     spaceBetween={30}
@@ -119,15 +119,15 @@ export default function ProjectComp() {
                     slidesPerView={1}
                     navigation
                     breakpoints={{
-                      // when window width is >= 640px
+                      
                       640: {
                         slidesPerView: 1,
                       },
-                      // when window width is >= 768px
+                   
                       768: {
                         slidesPerView: 2,
                       },
-                      // when window width is >= 1200px
+                     
                       1200: {
                         slidesPerView: 3,
                       },

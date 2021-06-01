@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import ProjectImg from '../assets/images/projectImg.png';
+import ProjectImg from '../assets/images/cavinimg.jpg';
 import styled from 'styled-components';
 
 const ProjectItemStyles = styled.div`

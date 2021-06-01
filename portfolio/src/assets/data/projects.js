@@ -1,8 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
+
 import CavinImg from '../images/cavinimg.jpg';
 
 const projects = [
@@ -11,7 +8,7 @@ const projects = [
     name: 'Algorithm Path Visualizer',
     desc:
       'A web app built using React to visualize all the path finding algorithms.',
-    img: ProjectImg,
+    img: CavinImg,
     link: "https://github.com/roshbhaskar/PathVisualizer",
   },
   {
@@ -19,7 +16,7 @@ const projects = [
     name: 'Linux Shell',
     desc:
       'Implementing a mini Linux Shell using C.',
-    img: UTrackerImg,
+    img: CavinImg,
     link: "https://github.com/roshbhaskar/LinuxShell-",
   },
   {
@@ -27,7 +24,7 @@ const projects = [
     name: 'Generic RBTs',
     desc:
       'Red Black Trees implementation in C++ using generic programming concepts.',
-    img: CoinTrackerImg,
+    img: CavinImg,
     link: "https://github.com/roshbhaskar/generic-red-black-trees",
   },
   {
@@ -35,7 +32,7 @@ const projects = [
     name: 'ChatBot',
     desc:
       'A rule based chatbot developed in PySpark using Reddit dataset.',
-    img: GreenCtgImg,
+    img: CavinImg,
     link: "https://github.com/roshbhaskar/ChatBot",
   },
   {
@@ -43,7 +40,7 @@ const projects = [
     name: 'Logging System',
     desc:
       'Mimicing the logging system dependies in C++ using variations of different Design Patterns.',
-    img: UTrackerImg,
+    img: CavinImg,
     link : "https://github.com/roshbhaskar/loggo",
   },
  

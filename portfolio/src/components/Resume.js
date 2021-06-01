@@ -114,9 +114,7 @@ export default function Resume() {
             <div className="resume">
             <div className="top-section">
             <div className="left">
-              {/* <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
-              </p> */}
+             
               <h2 className="about__heading">Hope you had fun looking around!</h2>
               <div className="about__info">
                 <PText>
@@ -131,22 +129,7 @@ export default function Resume() {
             </div>
           </div>
           <div className="about__info__items">
-            {/* <div className="about__info__item">
-              <h1 className="about__info__heading">Education</h1>
-
-              <AboutInfoItem
-                title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
-              />
-              <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
-              />
-              <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
-              />
-            </div> */}
+           
             <div className="about__info__item">
               <h2 className="about__info__heading">My Skills</h2>
 
@@ -168,25 +151,11 @@ export default function Resume() {
               />
              
             </div>
-            {/* <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
-
-              <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
-              />
-              <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
-              />
-            </div> */}
+            
+  
           </div>
             </div>
-            {/* <p>Hi</p> */}
+            
         </ResumeStyle>
     )
 }

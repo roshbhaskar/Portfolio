@@ -3,29 +3,15 @@ import styled from 'styled-components';
 import FooterCol from './FooterCol';
 
 const PStyle = styled.div`
-// max-width: 500px;
-// margin: 0 auto;
+
 font-size: 1.4rem;
-//color: var(--gray-2);
-// line-height: 1.3em;
-// position: absolute;
-// left: 48%;
-//font-weight: bold;
-        
-// @media only screen and (max-width: 768px){
-//     font-size: 1rem;
-    
-// }
+
 `;
 
 const CopyRight = styled.div`
-// max-width: 500px;
-// margin: 0 auto;
+
 font-size: 1.4rem;
-// line-height: 1.3em;
-// position: absolute;
-// left: 48%;
-//font-weight: bold;
+
 color:white; 
 @media only screen and (max-width: 768px){
     font-size: 1.3rem;
@@ -36,11 +22,9 @@ color:white;
 const FooterStyles = styled.div`
 padding-top: 3rem;
 background-color: var(--deep-dark);
-//margin-bottom: 3px;
+
 .container{
-    //height: 500px;
-    //position: absolute;
-    //top:700px;
+    
     display: flex;
     gap: 4rem;
     margin-bottom: 15px;

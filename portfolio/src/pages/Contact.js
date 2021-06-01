@@ -11,7 +11,6 @@ const ContactStyle = styled.div`
     }
     @media only screen and (max-width: 768px){
         .heading_1{
-            // postion: absolute;
             top: 70px;
             font-size: 2rem;
         }
@@ -21,11 +20,7 @@ export default function Contact() {
     return (
         <ContactStyle>
         <div className="container">
-            {/* <br></br>
-            <br/>
-            <br/> */}
-            {/* <h1 className="heading_1"                           
-            >HElloo</h1> */}
+           
             <Resume/>
             <Footer/>
         </div>
