@@ -21,6 +21,8 @@ color: gray;
 `;
 
 const LandingStyles = styled.div`
+
+    
     .land{
          position: absolute;
          top: 0;
@@ -98,9 +100,10 @@ const LandingStyles = styled.div`
   }
      
 
-
+  
 
     @media only screen and (max-width: 768px) {
+      
         .land {
             text-align: center;
             justify-content: center;
@@ -112,7 +115,7 @@ const LandingStyles = styled.div`
             top: 190px;
             font-size: 1.4rem;
             margin-bottom: -3rem;
-            left: 60%;
+            left: 65%;
           .name {
 
             font-size: 4.5rem;
@@ -123,14 +126,15 @@ const LandingStyles = styled.div`
             
             position: relative;
             top: 280px;
-            right: 10px;
-            width: 204px;
+            // right: 10px;
+             width: 100px;
+            //justify-content: center;
             
         }
         .landing_info {
           position: relative;
           top : 370px;
-          left: 65%;
+          left: 67%;
           
         }
         .landing_social {
@@ -147,6 +151,28 @@ const LandingStyles = styled.div`
             }
           }
         
+      }
+      @media only screen and (max-width: 632px) {
+        .img_landing{
+                
+          position: relative;
+          top: 280px;
+          // right: 10px;
+           width: 140px;
+          //justify-content: center;
+          
+      }
+      }
+      @media only screen and (max-width: 459px) {
+        .img_landing{
+                
+          position: relative;
+          top: 280px;
+          // right: 10px;
+           width: 200px;
+          //justify-content: center;
+          
+      }
       }
     
 `;
