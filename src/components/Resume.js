@@ -62,7 +62,8 @@ const ResumeStyle = styled.div`
       }
       .about__heading {
         font-size: 2.6rem;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
         //color: white;
       }
       .about__info {
@@ -75,7 +76,7 @@ const ResumeStyle = styled.div`
       .right {
         img {
           border: 2px solid var(--gray-1);
-          height: 300px;
+          height: 280px;
         }
       }
       .about__info__items {
@@ -89,7 +90,7 @@ const ResumeStyle = styled.div`
        color: white;
       }
       @media only screen and (max-width: 768px) {
-        padding: 4rem 0;
+        padding: 1rem 0;
         .top-section {
           flex-direction: column;
           gap: 5rem;

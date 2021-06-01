@@ -112,7 +112,7 @@ const LandingStyles = styled.div`
         }
         .landing {
            
-            top: 190px;
+            top: 170px;
             font-size: 1.4rem;
             margin-bottom: -3rem;
             left: 65%;
