@@ -12,6 +12,7 @@ const mini_projects = [
     desc:
       'Prediction the ratings of apps on Playstore using Jupyter.',
     img: ProjectImg,
+    link: "https://github.com/roshbhaskar/Play-Stores-App-Rating",
   },
   {
     id: uuidv4(),
@@ -19,6 +20,7 @@ const mini_projects = [
     desc:
       'Game built using Java.',
     img: GreenCtgImg,
+    link : "https://github.com/roshbhaskar/Minesweeper",
   },
   {
     id: uuidv4(),
@@ -26,6 +28,7 @@ const mini_projects = [
     desc:
       'A web app built using react that simply tracks your todo list.',
     img: CoinTrackerImg,
+    link : "https://github.com/roshbhaskar/TodoList",
   },
   {
     id: uuidv4(),
@@ -33,6 +36,7 @@ const mini_projects = [
     desc:
       'Game built using Python.',
     img: CavinImg,
+    link : "https://github.com/roshbhaskar/SnakeGame",
   },
   {
     id: uuidv4(),
@@ -40,6 +44,7 @@ const mini_projects = [
     desc:
       'Stimulating a insurance management system using MySql.',
     img: UTrackerImg,
+    link : "https://github.com/roshbhaskar/Insurance-Management-System",
   }
 ];
 
