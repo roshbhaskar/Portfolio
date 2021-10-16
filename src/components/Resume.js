@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Buttons';
 import AboutImg from '../assets/images/faceu.jpeg';
 import AboutInfoItem from '../components/AboutInfoItem';
-import resume from '../assets/resume/RBK_resume.pdf';
+import resume from '../assets/resume/resume_2021.pdf';
 
 
 const ButtonStyle = styled.div`
@@ -118,7 +118,7 @@ export default function Resume() {
               <h2 className="about__heading">Hope you had fun looking around!</h2>
               <div className="about__info">
                 <PText>
-                  I love art and desgin. Building things from scratch always seems exciting and their progress keeps me motivated.<br/> 
+                  I love art and design. Building things from scratch is always exciting and their progress keeps me motivated.<br/> 
                   My main domains of interest include Web Development and Data Science.<br/> 
                 </PText>
               </div>
@@ -140,7 +140,7 @@ export default function Resume() {
               />
                <AboutInfoItem
                 title="AI"
-                items={['Machine Learning','Keras','Spark','Hadoop']}
+                items={['Machine Learning','Spark']}
               />
               <AboutInfoItem
                 title="Proficient in"
