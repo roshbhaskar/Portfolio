@@ -27,14 +27,14 @@ const mini_projects = [
     img: CavinImg,
     link : "https://github.com/roshbhaskar/TodoList",
   },
-  {
-    id: uuidv4(),
-    name: "Snake Game",
-    desc:
-      'Game built using Python.',
-    img: CavinImg,
-    link : "https://github.com/roshbhaskar/SnakeGame",
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: "Snake Game",
+  //   desc:
+  //     'Game built using Python.',
+  //   img: CavinImg,
+  //   link : "https://github.com/roshbhaskar/SnakeGame",
+  // },
   {
     id: uuidv4(),
     name: 'Insurance Management System',
